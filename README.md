@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white)
 
-**April 28 – May 22, 2025 · Pupilica × Kaan Can Yılmaz**
+**April 28 – May 22, 2026 · Pupilica × Kaan Can Yılmaz**
 
 </div>
 
