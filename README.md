@@ -18,6 +18,8 @@ I'm a first-year Management Information Systems student at Istanbul University, 
 
 My goal is to become an AI engineer. I believe the best way to get there is by combining formal education with hands-on practice, which is exactly what this bootcamp is about for me.
 
+> 📌 This repo is part of my broader AI learning journey — see the main hub: [ai-learning-lab](https://github.com/bilgenurpala/ai-learning-lab)
+
 ---
 
 ## What is this repo?
@@ -35,7 +37,7 @@ Rather than just following along, I try to understand *why* things work the way 
 ## What I'm Learning
 
 ### 01 · Data Science Fundamentals
-Getting comfortable with the full data pipeline before touching any model. This module was mostly about understanding how messy real data is and how to clean it properly — missing values, outliers, duplicate records, wrong data types. Also covered EDA techniques, visualization, correlation analysis, group-based analysis, pivot tables, and time series. The biggest lesson: never skip exploration, always understand your data first.
+Getting comfortable with the full data pipeline before touching any model. This module was mostly about understanding how messy real data is and how to clean it properly — missing values, outliers, duplicate records, wrong data types. Also covered EDA techniques, visualisation, correlation analysis, group-based analysis, pivot tables, and time series. The biggest lesson: never skip exploration, always understand your data first.
 → [My notes](./01-Data-Science-Fundamentals/)
 
 ### 02 · Machine Learning
@@ -44,9 +46,11 @@ This is where things got interesting. Started with the preprocessing pipeline fo
 
 ### 03 · Deep Learning *(upcoming — May 14–18)*
 Neural network fundamentals, CNNs, transfer learning, and fine-tuning pre-trained models.
+→ [My notes](./03-Deep-Learning/) *(coming soon)*
 
 ### 04 · NLP *(upcoming — May 20–22)*
 Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Face.
+→ [My notes](./04-NLP/) *(coming soon)*
 
 ---
 
@@ -55,7 +59,7 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 **Data Science**
 - EDA: `df.info()`, `df.describe()`, null analysis, outlier detection (IQR method)
 - Data cleaning: missing value strategies, type conversions, deduplication
-- Visualization: line, bar, scatter, histogram, heatmap, boxplot
+- Visualisation: line, bar, scatter, histogram, heatmap, boxplot
 - Analysis: groupby, pivot tables, correlation matrix, time series
 
 **Machine Learning**
@@ -72,9 +76,9 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 |---|------|-------|----------|--------|
 | 1 | Apr 28 Tue | EDA – 1 | [📂](./01-Data-Science-Fundamentals/) | ✅ |
 | 2 | Apr 30 Thu | EDA – 2 | [📂](./01-Data-Science-Fundamentals/) | ✅ |
-| 3 | May 2 Sat | Data Visualization | [📂](./01-Data-Science-Fundamentals/) | ✅ |
+| 3 | May 2 Sat | Data Visualisation | [📂](./01-Data-Science-Fundamentals/) | ✅ |
 | 4 | May 4 Mon | Machine Learning – 1 | [📂](./02-Machine-Learning/) | ✅ |
-| 5 | May 6 Wed | Machine Learning – 2 | [📂](./02-Machine-Learning/) | 🔄 |
+| 5 | May 6 Wed | Machine Learning – 2 | [📂](./02-Machine-Learning/) | ⏳ |
 | 6 | May 8 Fri | Machine Learning – 3 | [📂](./02-Machine-Learning/) | ⏳ |
 | 7 | May 12 Tue | Machine Learning – 4 | [📂](./02-Machine-Learning/) | ⏳ |
 | 8 | May 14 Thu | Deep Learning – 1 | [📂](./03-Deep-Learning/) | ⏳ |
@@ -83,7 +87,7 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 | 11 | May 20 Wed | NLP – 1 | [📂](./04-NLP/) | ⏳ |
 | 12 | May 22 Fri | NLP – 2 | [📂](./04-NLP/) | ⏳ |
 
-> ✅ Done &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ⏳ Upcoming
+> ✅ Done &nbsp;|&nbsp; ⏳ Upcoming
 
 ---
 
@@ -92,7 +96,7 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 ```
 pupilica-ai-bootcamp/
 │
-├── 01-Data-Science-Fundamentals/   # EDA, data cleaning, visualization
+├── 01-Data-Science-Fundamentals/   # EDA, data cleaning, visualisation
 ├── 02-Machine-Learning/            # ML models, feature engineering
 ├── 03-Deep-Learning/               # Neural nets, CNNs (upcoming)
 ├── 04-NLP/                         # Text processing, transformers (upcoming)
@@ -102,6 +106,7 @@ pupilica-ai-bootcamp/
 │   └── final/                      # Final assignment
 │
 └── assets/                         # Diagrams, images
+    └── veri_bilimi_egitim_akis_semasi.svg
 ```
 
 ---
@@ -133,5 +138,5 @@ jupyter notebook
 ---
 
 <div align="center">
-<i>Personal notes by <a href="https://github.com/bilgenurpala">Bilge Nur Pala</a> · Pupilica AI Bootcamp 2025</i>
+<i>Personal notes by <a href="https://github.com/bilgenurpala">Bilge Nur Pala</a> · Pupilica AI Bootcamp 2026</i>
 </div>
