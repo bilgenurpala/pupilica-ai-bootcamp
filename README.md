@@ -12,15 +12,57 @@
 
 ---
 
+## About Me
+
+I'm a first-year Management Information Systems student at Istanbul University, with a prior degree in Public Finance from Eskişehir Osmangazi University. I'm self-taught in software development and actively working towards a career in AI engineering — building my foundation through bootcamps, personal projects, and continuous learning.
+
+My goal is to become an AI engineer. I believe the best way to get there is by combining formal education with hands-on practice, which is exactly what this bootcamp is about for me.
+
+---
+
 ## What is this repo?
 
-This is my personal study repository for the **Pupilica AI Bootcamp**. I'm using it to keep track of what I'm learning, store my own practice notebooks, and document concepts in my own words.
+This is my personal study repository for the **Pupilica AI Bootcamp** — a 4-week intensive program covering data science, machine learning, deep learning, and NLP. I use it to document what I'm learning in my own words, store my practice notebooks, and track my progress throughout the course.
 
-The course covers data science fundamentals, machine learning, deep learning, and NLP over 4 weeks. Each folder has my notes and exercises for that topic.
+Rather than just following along, I try to understand *why* things work the way they do and write it down here. The notes in each folder are my own interpretations, not copies of the course material.
 
 > 📌 **Instructor's repos I'm following:**
 > - Data Science: [turkiyeyapayzekaakademisi/veri-bilimi](https://github.com/turkiyeyapayzekaakademisi/veri-bilimi)
 > - Machine Learning: [turkiyeyapayzekaakademisi/Machine-Learning](https://github.com/turkiyeyapayzekaakademisi/Machine-Learning)
+
+---
+
+## What I'm Learning
+
+### 01 · Data Science Fundamentals
+Getting comfortable with the full data pipeline before touching any model. This module was mostly about understanding how messy real data is and how to clean it properly — missing values, outliers, duplicate records, wrong data types. Also covered EDA techniques, visualization, correlation analysis, group-based analysis, pivot tables, and time series. The biggest lesson: never skip exploration, always understand your data first.
+→ [My notes](./01-Data-Science-Fundamentals/)
+
+### 02 · Machine Learning
+This is where things got interesting. Started with the preprocessing pipeline for ML (encoding, scaling, train/test split) and the importance of avoiding data leakage. Then moved into actual models — Decision Trees, K-Means and Hierarchical Clustering, PCA for dimensionality reduction, cross-validation methods, and hyperparameter tuning with Grid Search and Random Search. Working with real datasets made these concepts click in a way that just reading about them never does.
+→ [My notes](./02-Machine-Learning/)
+
+### 03 · Deep Learning *(upcoming — May 14–18)*
+Neural network fundamentals, CNNs, transfer learning, and fine-tuning pre-trained models.
+
+### 04 · NLP *(upcoming — May 20–22)*
+Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Face.
+
+---
+
+## Key Concepts Covered So Far
+
+**Data Science**
+- EDA: `df.info()`, `df.describe()`, null analysis, outlier detection (IQR method)
+- Data cleaning: missing value strategies, type conversions, deduplication
+- Visualization: line, bar, scatter, histogram, heatmap, boxplot
+- Analysis: groupby, pivot tables, correlation matrix, time series
+
+**Machine Learning**
+- Preprocessing: Label Encoding, One-Hot Encoding, StandardScaler, MinMaxScaler
+- Models: Decision Tree, K-Means, Hierarchical Clustering, PCA, Logistic Regression, KNN
+- Evaluation: accuracy, confusion matrix, cross-validation (K-Fold, Stratified, LOO)
+- Tuning: GridSearchCV, RandomizedSearchCV, feature importance, feature engineering
 
 ---
 
