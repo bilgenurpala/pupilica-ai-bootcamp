@@ -1,0 +1,13 @@
+age,salary,city,education,experience_years,purchased
+25.0,32000.0,Ankara,Bachelors,1.0,Yes
+31.0,41000.0,Istanbul,Masters,4.0,No
+28.0,,Izmir,Bachelors,2.0,Pending
+45.0,67000.0,Ankara,PhD,15.0,No
+,52000.0,Bursa,Bachelors,7.0,Yes
+36.0,48000.0,Istanbul,Associate Degree,6.0,Pending
+29.0,39000.0,Izmir,Bachelors,,Yes
+41.0,61000.0,Ankara,Masters,11.0,No
+33.0,45000.0,Bursa,Bachelors,5.0,Pending
+27.0,35000.0,Istanbul,,2.0,No
+38.0,56000.0,Izmir,Masters,9.0,Yes
+30.0,43000.0,Ankara,Bachelors,3.0,Pending

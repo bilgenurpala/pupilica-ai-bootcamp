@@ -2,8 +2,10 @@
 
 <div align="center">
 
+[![Pupilica AI Bootcamp Banner](assets/main_banner.png)](https://github.com/bilgenurpala/pupilica-ai-bootcamp)
+
 ![Bootcamp](https://img.shields.io/badge/Pupilica-AI%20Bootcamp-brightgreen?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white)
 
 **April 28 – May 22, 2026 · Pupilica × Kaan Can Yılmaz**
@@ -36,21 +38,39 @@ Rather than just following along, I try to understand *why* things work the way 
 
 ## What I'm Learning
 
-### 01 · Data Science Fundamentals
-Getting comfortable with the full data pipeline before touching any model. This module was mostly about understanding how messy real data is and how to clean it properly — missing values, outliers, duplicate records, wrong data types. Also covered EDA techniques, visualisation, correlation analysis, group-based analysis, pivot tables, and time series. The biggest lesson: never skip exploration, always understand your data first.
-→ [My notes](./01-Data-Science-Fundamentals/)
+[![01 - Data Science Fundamentals Banner](assets/data_science_banner.png)](./01-Data-Science-Fundamentals/)
+### [01 · Data Science Fundamentals](./01-Data-Science-Fundamentals/)
+Getting comfortable with the full data pipeline before touching any model. This module was mostly about understanding how messy real data is and how to clean it properly — missing values, outliers, duplicate records, wrong data types. Also covered EDA techniques, visualisation, correlation analysis, group-based analysis, pivot tables, and time series.
+* **Core Topics:** Missing Value Handling, Outlier Detection (IQR), Categorical/Numerical Distributions, Correlation Heatmaps, Time Series Trends.
+* **Primary Tools:** `pandas`, `numpy`, `matplotlib`, `seaborn`.
+* **Explore Notes:** [→ View Folder & Jupyter Notebooks](./01-Data-Science-Fundamentals/)
 
-### 02 · Machine Learning
-This is where things got interesting. Started with the preprocessing pipeline for ML (encoding, scaling, train/test split) and the importance of avoiding data leakage. Then moved into actual models — Decision Trees, K-Means and Hierarchical Clustering, PCA for dimensionality reduction, cross-validation methods, and hyperparameter tuning with Grid Search and Random Search. Working with real datasets made these concepts click in a way that just reading about them never does.
-→ [My notes](./02-Machine-Learning/)
+---
 
-### 03 · Deep Learning *(upcoming — May 14–18)*
-Neural network fundamentals, CNNs, transfer learning, and fine-tuning pre-trained models.
-→ [My notes](./03-Deep-Learning/) *(coming soon)*
+[![02 - Machine Learning Banner](assets/machine_learning_banner.png)](./02-Machine-Learning/)
+### [02 · Machine Learning](./02-Machine-Learning/)
+Building supervised and unsupervised models along with evaluation metrics. Explored data preprocessing (scaling, label/one-hot encoding) to avoid data leakage. Worked through Decision Trees, K-Means Clustering, Hierarchical Clustering, and Principal Component Analysis (PCA) for dimensionality reduction. Investigated Cross-Validation methods and Hyperparameter Tuning with Grid and Random Search.
+* **Core Topics:** Feature Engineering, Splitting Criteria (Gini, Entropy), Inertia/Elbow Method, Cross-Validation, GridSearchCV.
+* **Primary Tools:** `scikit-learn`, `numpy`, `pandas`.
+* **Explore Notes:** [→ View Folder & Jupyter Notebooks](./02-Machine-Learning/)
 
-### 04 · NLP *(upcoming — May 20–22)*
-Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Face.
-→ [My notes](./04-NLP/) *(coming soon)*
+---
+
+[![03 - Deep Learning Banner](assets/deep_learning_banner.png)](./03-Deep-Learning/)
+### [03 · Deep Learning](./03-Deep-Learning/)
+Dive into neural networks, architectural design, and transfer learning. Covered Feedforward Artificial Neural Networks (ANN) for tabular and digit classification, Convolutional Neural Networks (CNN) for image recognition, and Recurrent Neural Networks (RNN) for sequence classification.
+* **Core Topics:** Multi-Layer Perceptrons, Activation Functions, Convolution/Pooling operations, Recurrent Hidden States, Word Embeddings in RNNs.
+* **Primary Tools:** `tensorflow` / `keras`, `numpy`.
+* **Explore Notes:** [→ View Folder & Jupyter Notebooks](./03-Deep-Learning/)
+
+---
+
+[![04 - Natural Language Processing Banner](assets/nlp_banner.png)](./04-NLP/)
+### [04 · Natural Language Processing](./04-NLP/)
+Text processing pipelines, numeric vectorizations, word semantics, and attention-based Transformer models. Covers text cleaning (tokenization, stemming, lemmatization), TF-IDF weighting, training semantic word vectors with Word2Vec, sentiment classification, and modern self-attention/pre-trained models.
+* **Core Topics:** Text Cleaning Pipelines, TF-IDF calculation, Word2Vec embeddings (CBOW vs. Skip-gram), Self-Attention mechanism, Hugging Face Pipeline API.
+* **Primary Tools:** `nltk`, `gensim`, `transformers`, `pytorch`.
+* **Explore Notes:** [→ View Folder & Jupyter Notebooks](./04-NLP/)
 
 ---
 
@@ -78,14 +98,14 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 | 2 | Apr 30 Thu | EDA – 2 | [📂](./01-Data-Science-Fundamentals/) | ✅ |
 | 3 | May 2 Sat | Data Visualisation | [📂](./01-Data-Science-Fundamentals/) | ✅ |
 | 4 | May 4 Mon | Machine Learning – 1 | [📂](./02-Machine-Learning/) | ✅ |
-| 5 | May 6 Wed | Machine Learning – 2 | [📂](./02-Machine-Learning/) | ⏳ |
-| 6 | May 8 Fri | Machine Learning – 3 | [📂](./02-Machine-Learning/) | ⏳ |
-| 7 | May 12 Tue | Machine Learning – 4 | [📂](./02-Machine-Learning/) | ⏳ |
-| 8 | May 14 Thu | Deep Learning – 1 | [📂](./03-Deep-Learning/) | ⏳ |
-| 9 | May 16 Sat | Deep Learning – 2 | [📂](./03-Deep-Learning/) | ⏳ |
-| 10 | May 18 Mon | Deep Learning – 3 | [📂](./03-Deep-Learning/) | ⏳ |
-| 11 | May 20 Wed | NLP – 1 | [📂](./04-NLP/) | ⏳ |
-| 12 | May 22 Fri | NLP – 2 | [📂](./04-NLP/) | ⏳ |
+| 5 | May 6 Wed | Machine Learning – 2 | [📂](./02-Machine-Learning/) | ✅ |
+| 6 | May 8 Fri | Machine Learning – 3 | [📂](./02-Machine-Learning/) | ✅ |
+| 7 | May 12 Tue | Machine Learning – 4 | [📂](./02-Machine-Learning/) | ✅ |
+| 8 | May 14 Thu | Deep Learning – 1 | [📂](./03-Deep-Learning/) | ✅ |
+| 9 | May 16 Sat | Deep Learning – 2 | [📂](./03-Deep-Learning/) | ✅ |
+| 10 | May 18 Mon | Deep Learning – 3 | [📂](./03-Deep-Learning/) | ✅ |
+| 11 | May 20 Wed | NLP – 1 | [📂](./04-NLP/) | ✅ |
+| 12 | May 22 Fri | NLP – 2 | [📂](./04-NLP/) | ✅ |
 
 > ✅ Done &nbsp;|&nbsp; ⏳ Upcoming
 
@@ -97,16 +117,21 @@ Text preprocessing, TF-IDF, word embeddings, transformers, and using Hugging Fac
 pupilica-ai-bootcamp/
 │
 ├── 01-Data-Science-Fundamentals/   # EDA, data cleaning, visualisation
-├── 02-Machine-Learning/            # ML models, feature engineering
-├── 03-Deep-Learning/               # Neural nets, CNNs (upcoming)
-├── 04-NLP/                         # Text processing, transformers (upcoming)
+├── 02-Machine-Learning/            # ML models, feature engineering, Math of ML
+├── 03-Deep-Learning/               # Neural nets, CNNs, RNNs
+├── 04-NLP/                         # Text processing, word embeddings, transformers
 │
 ├── assignments/
 │   ├── midterm/                    # Midterm assignment
 │   └── final/                      # Final assignment
 │
-└── assets/                         # Diagrams, images
-    └── veri_bilimi_egitim_akis_semasi.svg
+└── assets/                         # Diagrams, banners, and flowchart assets
+    ├── main_banner.png
+    ├── data_science_banner.png
+    ├── machine_learning_banner.png
+    ├── deep_learning_banner.png
+    ├── nlp_banner.png
+    └── data_science_training_flowchart.svg
 ```
 
 ---
@@ -119,6 +144,8 @@ pupilica-ai-bootcamp/
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ---
 

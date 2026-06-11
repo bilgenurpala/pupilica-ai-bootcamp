@@ -8,3 +8,5 @@ scipy
 jupyter
 notebook
 ipykernel
+nltk
+gensim

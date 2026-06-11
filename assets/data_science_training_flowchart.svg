@@ -42,15 +42,15 @@
     </style>
   </defs>
 
-  <!-- PHASE BAND 1: Temel -->
+  <!-- PHASE BAND 1: Fundamentals -->
   <rect class="phase-rect" x="40" y="30" width="600" height="200" rx="16"/>
-  <text class="phase-label" x="57" y="50">Temel</text>
+  <text class="phase-label" x="57" y="50">Fundamentals</text>
 
   <!-- Modül 1 -->
   <g class="mod-purple">
     <rect x="200" y="56" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="76" text-anchor="middle" dominant-baseline="central">1. Veri bilimine giriş</text>
-    <text class="ts" x="340" y="96" text-anchor="middle" dominant-baseline="central">Kavramlar · veri türleri · araçlar</text>
+    <text class="th" x="340" y="76" text-anchor="middle" dominant-baseline="central">1. Introduction to Data Science</text>
+    <text class="ts" x="340" y="96" text-anchor="middle" dominant-baseline="central">Concepts · data types · tools</text>
   </g>
 
   <line class="arr-line" x1="340" y1="112" x2="340" y2="138"/>
@@ -58,21 +58,21 @@
   <!-- Modül 2 -->
   <g class="mod-purple">
     <rect x="200" y="144" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="164" text-anchor="middle" dominant-baseline="central">2. Veri setini tanıma</text>
-    <text class="ts" x="340" y="184" text-anchor="middle" dominant-baseline="central">Yükleme · inceleme · değişken tipleri</text>
+    <text class="th" x="340" y="164" text-anchor="middle" dominant-baseline="central">2. Understanding the Dataset</text>
+    <text class="ts" x="340" y="184" text-anchor="middle" dominant-baseline="central">Loading · inspection · variable types</text>
   </g>
 
   <!-- PHASE BAND 2: Veri Temizleme -->
   <rect class="phase-rect" x="40" y="240" width="600" height="320" rx="16"/>
-  <text class="phase-label" x="57" y="260">Veri temizleme</text>
+  <text class="phase-label" x="57" y="260">Data Cleaning</text>
 
   <line class="arr-line" x1="340" y1="200" x2="340" y2="268"/>
 
   <!-- Modül 3 -->
   <g class="mod-teal">
     <rect x="200" y="274" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="294" text-anchor="middle" dominant-baseline="central">3. Eksik veriler</text>
-    <text class="ts" x="340" y="314" text-anchor="middle" dominant-baseline="central">Tespit · silme · ortalama/mod doldurma</text>
+    <text class="th" x="340" y="294" text-anchor="middle" dominant-baseline="central">3. Missing Data</text>
+    <text class="ts" x="340" y="314" text-anchor="middle" dominant-baseline="central">Detection · deletion · mean/mode imputation</text>
   </g>
 
   <line class="arr-line" x1="340" y1="330" x2="340" y2="356"/>
@@ -80,8 +80,8 @@
   <!-- Modül 4 -->
   <g class="mod-teal">
     <rect x="200" y="362" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="382" text-anchor="middle" dominant-baseline="central">4. Veri tipleri ve dönüşümler</text>
-    <text class="ts" x="340" y="402" text-anchor="middle" dominant-baseline="central">String → sayı · tarih · yeni özellik</text>
+    <text class="th" x="340" y="382" text-anchor="middle" dominant-baseline="central">4. Data Types & Conversions</text>
+    <text class="ts" x="340" y="402" text-anchor="middle" dominant-baseline="central">String → number · date · new feature</text>
   </g>
 
   <line class="arr-line" x1="340" y1="418" x2="340" y2="444"/>
@@ -89,8 +89,8 @@
   <!-- Modül 5 -->
   <g class="mod-teal">
     <rect x="200" y="450" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="470" text-anchor="middle" dominant-baseline="central">5. Tutarsız kayıtlar</text>
-    <text class="ts" x="340" y="490" text-anchor="middle" dominant-baseline="central">Duplicate · mantıksal hatalar</text>
+    <text class="th" x="340" y="470" text-anchor="middle" dominant-baseline="central">5. Inconsistent Records</text>
+    <text class="ts" x="340" y="490" text-anchor="middle" dominant-baseline="central">Duplicates · logical errors</text>
   </g>
 
   <line class="arr-line" x1="340" y1="506" x2="340" y2="532"/>
@@ -98,8 +98,8 @@
   <!-- Modül 6 -->
   <g class="mod-teal">
     <rect x="200" y="538" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="558" text-anchor="middle" dominant-baseline="central">6. Aykırı değerler</text>
-    <text class="ts" x="340" y="578" text-anchor="middle" dominant-baseline="central">IQR · filtreleme · sınırlandırma</text>
+    <text class="th" x="340" y="558" text-anchor="middle" dominant-baseline="central">6. Outliers</text>
+    <text class="ts" x="340" y="578" text-anchor="middle" dominant-baseline="central">IQR · filtering · capping</text>
   </g>
 
   <!-- ARA ÖDEV -->
@@ -107,20 +107,20 @@
 
   <g class="mod-amber">
     <rect x="230" y="634" width="220" height="44" rx="22" stroke-width="0.5"/>
-    <text class="th" x="340" y="656" text-anchor="middle" dominant-baseline="central">7. Ara ödev</text>
+    <text class="th" x="340" y="656" text-anchor="middle" dominant-baseline="central">7. Midterm Assignment</text>
   </g>
 
-  <!-- PHASE BAND 3: Analiz -->
+  <!-- PHASE BAND 3: Analysis -->
   <rect class="phase-rect" x="40" y="710" width="600" height="380" rx="16"/>
-  <text class="phase-label" x="57" y="730">Analiz</text>
+  <text class="phase-label" x="57" y="730">Analysis</text>
 
   <line class="arr-line" x1="340" y1="678" x2="340" y2="742"/>
 
   <!-- Modül 8 -->
   <g class="mod-blue">
     <rect x="200" y="748" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="768" text-anchor="middle" dominant-baseline="central">8. Kategorik veri analizi</text>
-    <text class="ts" x="340" y="788" text-anchor="middle" dominant-baseline="central">Frekans · dağılım · grafik</text>
+    <text class="th" x="340" y="768" text-anchor="middle" dominant-baseline="central">8. Categorical Data Analysis</text>
+    <text class="ts" x="340" y="788" text-anchor="middle" dominant-baseline="central">Frequency · distribution · charts</text>
   </g>
 
   <line class="arr-line" x1="340" y1="804" x2="340" y2="830"/>
@@ -128,8 +128,8 @@
   <!-- Modül 9 -->
   <g class="mod-blue">
     <rect x="200" y="836" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="856" text-anchor="middle" dominant-baseline="central">9. Sayısal veri analizi</text>
-    <text class="ts" x="340" y="876" text-anchor="middle" dominant-baseline="central">İstatistik · histogram · yorum</text>
+    <text class="th" x="340" y="856" text-anchor="middle" dominant-baseline="central">9. Numerical Data Analysis</text>
+    <text class="ts" x="340" y="876" text-anchor="middle" dominant-baseline="central">Stats · histogram · interpretation</text>
   </g>
 
   <line class="arr-line" x1="340" y1="892" x2="340" y2="918"/>
@@ -137,8 +137,8 @@
   <!-- Modül 10 -->
   <g class="mod-blue">
     <rect x="200" y="924" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="944" text-anchor="middle" dominant-baseline="central">10. Grup bazlı analiz</text>
-    <text class="ts" x="340" y="964" text-anchor="middle" dominant-baseline="central">Kategori · şehir · zaman grupları</text>
+    <text class="th" x="340" y="944" text-anchor="middle" dominant-baseline="central">10. Group-Based Analysis</text>
+    <text class="ts" x="340" y="964" text-anchor="middle" dominant-baseline="central">Category · city · time groups</text>
   </g>
 
   <line class="arr-line" x1="340" y1="980" x2="340" y2="1006"/>
@@ -146,20 +146,20 @@
   <!-- Modül 11 -->
   <g class="mod-blue">
     <rect x="200" y="1012" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="1032" text-anchor="middle" dominant-baseline="central">11. Pivot tablolar</text>
-    <text class="ts" x="340" y="1052" text-anchor="middle" dominant-baseline="central">İki değişkenli karşılaştırma</text>
+    <text class="th" x="340" y="1032" text-anchor="middle" dominant-baseline="central">11. Pivot Tables</text>
+    <text class="ts" x="340" y="1052" text-anchor="middle" dominant-baseline="central">Bivariate comparison</text>
   </g>
 
   <!-- PHASE BAND 4: Görselleştirme & Hikaye -->
   <rect class="phase-rect" x="40" y="1098" width="600" height="204" rx="16"/>
-  <text class="phase-label" x="57" y="1118">Görselleştirme ve hikaye</text>
+  <text class="phase-label" x="57" y="1118">Visualization & Storytelling</text>
 
   <line class="arr-line" x1="340" y1="1068" x2="340" y2="1126"/>
 
   <!-- Modül 12 -->
   <g class="mod-coral">
     <rect x="200" y="1132" width="280" height="56" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="1152" text-anchor="middle" dominant-baseline="central">12. Veri görselleştirme</text>
+    <text class="th" x="340" y="1152" text-anchor="middle" dominant-baseline="central">12. Data Visualization</text>
     <text class="ts" x="340" y="1172" text-anchor="middle" dominant-baseline="central">Line · scatter · bar · box plot</text>
   </g>
 
@@ -171,19 +171,19 @@
   <!-- Modül 13 -->
   <g class="mod-coral">
     <rect x="52" y="1220" width="174" height="44" rx="10" stroke-width="0.5"/>
-    <text class="th" x="139" y="1242" text-anchor="middle" dominant-baseline="central">13. Zaman analizi</text>
+    <text class="th" x="139" y="1242" text-anchor="middle" dominant-baseline="central">13. Time Series Analysis</text>
   </g>
 
   <!-- Modül 14 -->
   <g class="mod-coral">
     <rect x="253" y="1220" width="174" height="44" rx="10" stroke-width="0.5"/>
-    <text class="th" x="340" y="1242" text-anchor="middle" dominant-baseline="central">14. İlişki analizi</text>
+    <text class="th" x="340" y="1242" text-anchor="middle" dominant-baseline="central">14. Correlation Analysis</text>
   </g>
 
   <!-- Modül 15 -->
   <g class="mod-coral">
     <rect x="454" y="1220" width="174" height="44" rx="10" stroke-width="0.5"/>
-    <text class="th" x="541" y="1242" text-anchor="middle" dominant-baseline="central">15. Hikayeleştirme</text>
+    <text class="th" x="541" y="1242" text-anchor="middle" dominant-baseline="central">15. Data Storytelling</text>
   </g>
 
   <!-- Toplanma -->
@@ -195,7 +195,7 @@
   <!-- Final Ödev -->
   <g class="mod-amber">
     <rect x="230" y="1308" width="220" height="24" rx="12" stroke-width="0.5"/>
-    <text class="ts" x="340" y="1320" text-anchor="middle" dominant-baseline="central">16. Final ödevi</text>
+    <text class="ts" x="340" y="1320" text-anchor="middle" dominant-baseline="central">16. Final Assignment</text>
   </g>
 
 </svg>
