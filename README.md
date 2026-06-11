@@ -165,5 +165,5 @@ jupyter notebook
 ---
 
 <div align="center">
-<i>Personal notes by <a href="https://github.com/bilgenurpala">Bilge Nur Pala</a> · Pupilica AI Bootcamp 2026</i>
+<i>Personal notes by <a href="https://github.com/bilgenurpala">Bilgenur Pala</a> · Pupilica AI Bootcamp 2026</i>
 </div>
